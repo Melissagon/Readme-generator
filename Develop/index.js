@@ -1,9 +1,5 @@
 
-// const generate = require("./utils/generateMarkdown");
-
-
-
-
+const generateREADME = require("./utils/generateREADME");
 const inquirer = require('inquirer');
 const fs = require('fs');
 
