@@ -39,12 +39,34 @@ function generateREADME(data) {
   return `# ${data.project} ${renderLicenseBadge(data.license)}
   ## ${ "Table of Contents" }
   1. [Description](#description)
+  2. [License](#license)
+  3. [Dependencies](#dependencies)
+  4. [Tests](#tests)
+  5. [Repo](#repo)
+  6. [Contributing](#contributing)
+  7. [Questions](#questions)
 
   ## Description
   ${data.description}
 
   ## License
   ${renderLicenseLink(data.license)}
+
+  ## Dependencies
+  ${data.dependencies}
+
+  ## Tests
+  ${data.tests}
+
+  ## Repo
+  ${data.repo}
+
+  ## Contributing
+  ${data.contributing}
+
+  ## Questions
+  ${data.GitHub}
+  ${data.email}
 `;
 }
 
