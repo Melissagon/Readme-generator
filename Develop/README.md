@@ -1,4 +1,4 @@
-# readme ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# Readme generator  
   ## Table of Contents
   1. [Description](#description)
   2. [License](#license)
@@ -9,23 +9,31 @@
   7. [Questions](#questions)
 
   ## Description
-  This app will ask you some questions and automatically generate a Readme file.
+  joiwenv pwoiejf pwoi ejpfaoijf epowije pa oijfe poaij fpeoiwj fpowiejf wpeioj.
 
   ## License
-  https://opensource.org/licenses/MIT
+   
 
   ## Dependencies
+  To install necessary dependencies, run the following command: 
   npm install
 
   ## Tests
-  node index.js
+  To run tests, run the following command:
+  npm run tests
 
   ## Repo
-  Follow the prompts.
+  What you need to know about using this repo: 
+  Follow the prompts
 
   ## Contributing
-  Be descriptive in filling in your answers. 
+  What you need to know about contributing to this repo:
+  Be descriptive when answering the prompts.
 
   ## Questions
-  mel
+  GitHub: 
+  melmey
+  
+
+  Email: 
   mel@gmail.com

@@ -53,19 +53,26 @@ function generateREADME(data) {
   ${renderLicenseLink(data.license)}
 
   ## Dependencies
+  To install necessary dependencies, run the following command: 
   ${data.dependencies}
 
   ## Tests
+  To run tests, run the following command:
   ${data.tests}
 
   ## Repo
+  What you need to know about using this repo: 
   ${data.repo}
 
   ## Contributing
+  What you need to know about contributing to this repo:
   ${data.contributing}
 
   ## Questions
+  GitHub: 
   ${data.GitHub}
+  \n
+  Email: 
   ${data.email}
 `;
 }
