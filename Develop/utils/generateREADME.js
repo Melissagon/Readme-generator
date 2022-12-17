@@ -1,4 +1,4 @@
-
+//function to add the license badge
 function renderLicenseBadge(licenseType) {
   let licenseString = " ";
   if (licenseType === "MIT") {
@@ -16,7 +16,7 @@ function renderLicenseBadge(licenseType) {
   return licenseString;
 }
 
-
+//function to add the license link
 function renderLicenseLink(licenseType) {
   let licenseLink = " ";
   if (licenseType === "MIT") {
@@ -34,7 +34,7 @@ function renderLicenseLink(licenseType) {
   return licenseLink;  
 }
 
-
+//function and markdown to generate the readme with the answers provided in the prompt. 
 function generateREADME(data) {
   return `# ${data.project} ${renderLicenseBadge(data.license)}
   ## ${ "Table of Contents" }

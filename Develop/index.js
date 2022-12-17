@@ -1,9 +1,11 @@
-
+//Requiring the generateREADME.js document.
 const generateREADME = require("./utils/generateREADME");
+//Requiring inquirer
 const inquirer = require('inquirer');
+//Requiring the file system
 const fs = require('fs');
 
-
+//Questions, prompted to gather info for Readme. 
 inquirer
   .prompt([
     {
@@ -53,9 +55,10 @@ inquirer
       name: 'contributing',
     },
   ])
+//Answers to prompts are being passed in and calling the generateREADME function from generateREADME.js to organize the answers. 
   .then((answers) => {
     const README = generateREADME(answers);
-
+// Calling the writeFile method to create a Readme.md document with the given answers. 
     fs.writeFile('README.md', README, (err) =>
       err ? console.log(err) : console.log('Successfully created README.md!')
     );
